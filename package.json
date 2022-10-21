@@ -1,0 +1,20 @@
+{
+  "name": "word-of-the-day-app",
+  "version": "1.0.0",
+  "description": "gives word of the day as a reminder ",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "Ipsha Ghimire",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "21.1.1"
+  },
+  "dependencies": {
+    "electron-store": "8.1.0",
+    "mongoose": "6.6.5",
+    "path": "0.12.7"
+  }
+}
